@@ -1,0 +1,13 @@
+﻿@model IEnumerable<Entities.Author>
+
+<a href="#">Yazarlarimiz </a>
+<ul>
+    @foreach (var item in @ViewBag.AuthorList)
+    {
+        <li><a href="category-lifestyle.html">@item.Author</a></li>
+    }
+    @*<li><a href="category-lifestyle.html">Taner urun</a></li>
+    <li><a href="category-travel.html">Taner</a></li>
+    <li><a href="category-video.html">Hasim</a></li>
+    <li><a href="category-music.html">Teter</a></li>*@
+</ul>
